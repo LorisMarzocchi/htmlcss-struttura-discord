@@ -22,8 +22,7 @@ nav {
 .login {
     flex: 0 1 20%;
     height: 50px;
-    border: 1px solid black;
-    border-style: dashed;
+    border: 1px dashed black;
     background-color: orange;
     text-align: center;
     padding-top: 5px;
@@ -62,12 +61,13 @@ nav {
     height: 250px;
     justify-content: center;
     align-items: center;  
-}
+} 
 
 .lightblue {
     background-color: rgb(16, 110, 141);
     height: 150px;
     flex: 0 1 50%;
+    border: 1px dashed black;
 }
 
 .rosa {
@@ -75,6 +75,7 @@ nav {
     height: 150px;
     width: 500px;
     background-color: rgb(210, 121, 136);
+    border: 1px dashed black;
 }
 
 .reverse {
@@ -92,10 +93,11 @@ nav {
     background-color: lightslategray;
 }
 
-.green {
+.green { 
     height: 450px;
     width: 600px;
     background-color: green;
+    border: 1px dashed black;
 }
 
 .contenitore3 {
@@ -109,14 +111,14 @@ nav {
     border-bottom: 2px solid white;
 } 
 
-.colrosa {
+.col-rosa {
     height: 400px;
     flex: 0 0 calc(100% / 4);    
     background-color: rgb(210, 121, 136);
     border: 2px dashed black;
 }
 
-.colazzurro {
+.col-azzurro {
     border: 2px dashed white ;
     display: flex;
     flex-direction: row;
@@ -135,9 +137,10 @@ footer {
     padding-inline: 250px;
     background-color: black;  
 }
-.footer{
+.footer-content{
     display: flex;
     background-color: aqua;
+    border: 1px dashed black;
     height: 50px;
     /* padding-inline: 20px; */
     flex: 0 1 100%;
